@@ -261,7 +261,7 @@ impl Build {
             "mips-unknown-linux-gnu" => "linux-mips32",
             "mips-unknown-linux-musl" => "linux-mips32",
             "mips64-unknown-linux-gnuabi64" => "linux64-mips64",
-            "loongarch64-unknown-linux-gnu" => "linux64-mips64",
+            "loongarch64-unknown-linux-gnu" => "linux64-riscv64",
             "mips64-unknown-linux-muslabi64" => "linux64-mips64",
             "mips64el-unknown-linux-gnuabi64" => "linux64-mips64",
             "mips64el-unknown-linux-muslabi64" => "linux64-mips64",
