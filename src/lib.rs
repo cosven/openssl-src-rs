@@ -219,6 +219,9 @@ impl Build {
             }
         }
 
+        // for loongarch
+        configure.arg("no-asm");
+
         let os = match target {
             "aarch64-apple-darwin" => "darwin64-arm64-cc",
             // Note that this, and all other android targets, aren't using the
